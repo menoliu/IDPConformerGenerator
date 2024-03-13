@@ -9,6 +9,10 @@ While in version ``0``, minor and patch upgrades converge in the ``patch`` numbe
 Changelog
 =========
 
+* Updates the ``validate`` module to be functional.
+* Adds option to discard or move failed conformers into another directory.
+* Checks for corrent bond-lengths, bond-angles, torsion angles, chain-breaks, and clashes.
+
 v0.7.21 (2024-03-13)
 ------------------------------------------------------------
 
