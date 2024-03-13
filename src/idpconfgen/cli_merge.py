@@ -12,7 +12,7 @@ USAGE:
         --source <PATH_TO_SUBFOLDERS> \
         --destination <PATH_TO_OUTPUT> \
         --prefix <CUSTOM_NAME> \
-        --ncores <
+        --ncores \
         --delete
 """
 import argparse

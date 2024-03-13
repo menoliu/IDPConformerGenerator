@@ -1,8 +1,19 @@
-"""
+r"""# noqa: D205, D400, E501
 Conformer validator.
 
+Checks and reports on the following:
+* vdW radii based clash checking, reports number of clashes
+* Bond-length and bond-angles, reports number of incorrect lengths and angles
+* Backbone torsion angles, reports number of residues with incorrect chirality
+* Backbone chain breaks, reports whether conformer has a chain break or not
+
 USAGE:
-    $ idpconfgen validator FOLDER
+    $ idpconfgen validate <PATH_TO_FOLDER> \
+        --tolerance <0-1.0> \
+        --output <PATH_TO_OUTPUT_FILE.TXT> \
+        --move \
+        --delete \
+        --ncores
 """
 import argparse
 import sys
