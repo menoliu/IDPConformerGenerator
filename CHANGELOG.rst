@@ -9,6 +9,9 @@ While in version ``0``, minor and patch upgrades converge in the ``patch`` numbe
 Changelog
 =========
 
+* Improve ``ldrs`` code efficiency
+* Add automatic ``--long`` building option to ``ldrs`` for IDRs close to and greater than 150 AA
+
 v0.7.26 (2025-01-14)
 ------------------------------------------------------------
 
