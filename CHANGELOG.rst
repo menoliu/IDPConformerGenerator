@@ -9,9 +9,6 @@ While in version ``0``, minor and patch upgrades converge in the ``patch`` numbe
 Changelog
 =========
 
-v0.7.31 (2025-09-11)
-------------------------------------------------------------
-
 * Add new sublcient ``contacts`` to build and evaluate extended idpconfgen database
 * Add new subclient ``complex`` to analyze sequences against the database and build dynamic complexes
 * Add ``BioPython`` as a dependency for calulation purposes (Shrake-Rupley SASA method)
@@ -22,33 +19,6 @@ v0.7.31 (2025-09-11)
 * Added pKa, pKb, and pKx values to known residues in ``definitions.py``
 * Added plotting capability for generated contact heatmaps and automated font-size calculation in ``plotfuncs.py``
 * Catch unique KeyError when calculating torsion angles in ``cli_torsions.py``
-
-v0.7.30 (2025-07-11)
-------------------------------------------------------------
-
-* Emergency fix for required packaged since setuptools 80.0.0 is not supported
-
-v0.7.29 (2025-07-10)
-------------------------------------------------------------
-
-* Minor update the environment requirements specifying Python version to be between 3.8 and 3.12.
-
-v0.7.28 (2025-03-11)
-------------------------------------------------------------
-
-* Corrected a bug in issue #287 regarding building with ``ldrs`` for 3 or more chains
-
-v0.7.27 (2025-02-14)
-------------------------------------------------------------
-
-* Adds ``--force-long`` flag into ``build`` client to force long-method for sequences longer than 100 AA
-
-v0.7.26 (2025-01-14)
-------------------------------------------------------------
-
-* Update documentation to clarify DSSPv3 installation
-* Update usage documentation for recognition of PDB files for ``ldrs``
-* Addresses issue #283
 
 v0.7.25 (2024-05-09)
 ------------------------------------------------------------
