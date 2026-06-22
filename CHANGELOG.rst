@@ -9,6 +9,8 @@ While in version ``0``, minor and patch upgrades converge in the ``patch`` numbe
 Changelog
 =========
 
+* Update AlphaFlex methodologies. Please see the new ``alphaflex/`` folder for details.
+
 v0.8.1 (2025-12-18)
 ------------------------------------------------------------
 
